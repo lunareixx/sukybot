@@ -26,7 +26,7 @@ module.exports = class BotInfoCommand extends Command {
     const embed = new MessageEmbed()
       .setTitle('Suky\'s Bot Information')
       .setDescription(oneLine`
-        Suky is a Multipurpose Bot bulit with **discord.js** . This bot uses base code from '**[here](https://github.com/sabattle/CalypsoBot)**'
+        Hi! Namaku Suky, aku adalah Executive Server Lunarix Hub. Jika kalian macam-macam nanti bakal ku ban kalian HAHAHAHA. Makanya kalian jangan macam-macam ya wkwk
       `)
       .addField('Prefix', `\`${prefix}\``, true)
       .addField('Client ID', `\`${message.client.user.id}\``, true)
