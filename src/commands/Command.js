@@ -3,7 +3,7 @@ const permissions = require('../utils/permissions.json');
 const { fail } = require('../utils/emojis.json');
 
 /**
- * Suky's custom Command class
+ * Helene's custom Command class
  */
 class Command {
 

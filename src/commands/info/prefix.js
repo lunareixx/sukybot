@@ -7,15 +7,15 @@ module.exports = class PrefixCommand extends Command {
       name: 'prefix',
       aliases: ['pre'],
       usage: 'prefix',
-      description: 'Fetches Suky\'s current prefix.',
+      description: 'Fetches Helene\'s current prefix.',
       type: client.types.INFO
     });
   }
   run(message) {
     const prefix = message.client.db.settings.selectPrefix.pluck().get(message.guild.id); // Get prefix
     const embed = new MessageEmbed()
-      .setTitle('Suky\'s Prefix')
-      .setThumbnail('https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky.png')
+      .setTitle('Helene\'s Prefix')
+      .setThumbnail('https://raw.githubusercontent.com/lunareixx/lunarixhub-bot/master/data/images/Helene.png')
       .addField('Prefix', `\`${prefix}\``, true)
       .addField('Example', `\`${prefix}ping\``, true)
       .setFooter(message.member.displayName,  message.author.displayAvatarURL({ dynamic: true }))

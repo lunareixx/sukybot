@@ -10,7 +10,7 @@ module.exports = class BotInfoCommand extends Command {
       name: 'botinfo',
       aliases: ['bot', 'bi'],
       usage: 'botinfo',
-      description: 'Fetches Suky\'s bot information.',
+      description: 'Fetches Helene\'s bot information.',
       type: client.types.INFO
     });
   }
@@ -24,9 +24,9 @@ module.exports = class BotInfoCommand extends Command {
       Database    :: SQLite
     `;
     const embed = new MessageEmbed()
-      .setTitle('Suky\'s Bot Information')
+      .setTitle('Helene\'s Bot Information')
       .setDescription(oneLine`
-        Hi! Namaku Suky, aku adalah Executive Server Lunarix Hub. Jika kalian macam-macam nanti bakal ku ban kalian HAHAHAHA. Makanya kalian jangan macam-macam ya wkwk
+        Hi! Namaku Helene, aku adalah Executive Server Lunarix Hub. Jika kalian macam-macam nanti bakal ku ban kalian HAHAHAHA. Makanya kalian jangan macam-macam ya wkwk
       `)
       .addField('Prefix', `\`${prefix}\``, true)
       .addField('Client ID', `\`${message.client.user.id}\``, true)
@@ -35,9 +35,9 @@ module.exports = class BotInfoCommand extends Command {
       .addField(
         'Links', 
         '**[Support Server](https://discord.gg/jVgKDC4) | ' +
-        '[Repository](https://github.com/lunareixx/sukybot)**'
+        '[Repository](https://github.com/lunareixx/lunarixhub-bot)**'
       )
-      .setImage('https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky_Title.png')
+      .setImage('https://raw.githubusercontent.com/lunareixx/lunarixhub-bot/master/data/images/Helene_Title.png')
       .setFooter(message.member.displayName,  message.author.displayAvatarURL({ dynamic: true }))
       .setTimestamp()
       .setColor(message.guild.me.displayHexColor);

@@ -54,7 +54,7 @@ module.exports = class AliasesCommand extends Command {
 
       embed
         .setTitle(`Alias Type: \`${capitalize(type)}\``)
-        .setThumbnail('https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky.png')
+        .setThumbnail('https://raw.githubusercontent.com/lunareixx/lunarixhub-bot/master/data/images/Helene.png')
         .addField(
           `**${emojiMap[type]} [${aliases[type].reduce((a, b) => a + b.split(' ').slice(1).length, 0)}]**`, 
           aliases[type].join('\n')
@@ -76,12 +76,12 @@ module.exports = class AliasesCommand extends Command {
       const prefix = message.client.db.settings.selectPrefix.pluck().get(message.guild.id);
 
       embed
-        .setTitle('Suky\'s Alias Types')
+        .setTitle('Helene\'s Alias Types')
         .setDescription(stripIndent`
           **Prefix:** \`${prefix}\`
           **More Information:** \`${prefix}aliases [command type]\`
         `)
-        .setImage('https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky_Title.png')
+        .setImage('https://raw.githubusercontent.com/lunareixx/lunarixhub-bot/master/data/images/Helene_Title.png')
         .setFooter(message.member.displayName, message.author.displayAvatarURL({ dynamic: true }))
         .setTimestamp()
         .setColor(message.guild.me.displayHexColor);
@@ -99,7 +99,7 @@ module.exports = class AliasesCommand extends Command {
       embed.addField(
         '**Links**', 
         '**[Support Server](https://discord.gg/jVgKDC4) | ' +
-        '[Repository](https://github.com/lunareixx/sukybot)**'
+        '[Repository](https://github.com/lunareixx/lunarixhub-bot)**'
       );
 
     }

@@ -39,7 +39,7 @@ module.exports = class HelpCommand extends Command {
       
       embed // Build specific command help embed
         .setTitle(`Command: \`${command.name}\``)
-        .setThumbnail('https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky.png')
+        .setThumbnail('https://raw.githubusercontent.com/lunareixx/lunarixhub-bot/master/data/images/Helene.png')
         .setDescription(command.description)
         .addField('Usage', `\`${prefix}${command.usage}\``, true)
         .addField('Type', `\`${capitalize(command.type)}\``, true)
@@ -85,7 +85,7 @@ module.exports = class HelpCommand extends Command {
       const size = message.client.commands.size - commands[OWNER].length;
 
       embed // Build help embed
-        .setTitle('Suky\'s Commands')
+        .setTitle('Helene\'s Commands')
         .setDescription(stripIndent`
           **Prefix:** \`${prefix}\`
           **More Information:** \`${prefix}help [command]\`
@@ -97,7 +97,7 @@ module.exports = class HelpCommand extends Command {
           message.author.displayAvatarURL({ dynamic: true })
         )
         .setTimestamp()
-        .setImage('https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky_Title.png')
+        .setImage('https://raw.githubusercontent.com/lunareixx/lunarixhub-bot/master/data/images/Helene_Title.png')
         .setColor(message.guild.me.displayHexColor);
 
       for (const type of Object.values(message.client.types)) {
@@ -109,7 +109,7 @@ module.exports = class HelpCommand extends Command {
       embed.addField(
         '**Links**',
         '**[Server](https://discord.gg/jVgKDC4) | ' +
-        '[Repository](https://github.com/lunareixx/sukybot)**'
+        '[Repository](https://github.com/lunareixx/lunarixhub-bot)**'
       );
         
     }

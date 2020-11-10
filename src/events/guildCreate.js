@@ -4,7 +4,7 @@ const { success } = require('../utils/emojis.json');
 
 module.exports = async (client, guild) => {
 
-  client.logger.info(`Suky has joined ${guild.name}`);
+  client.logger.info(`Helene has joined ${guild.name}`);
   const serverLog = client.channels.cache.get(client.serverLogId);
   if (serverLog)
     serverLog.send(new MessageEmbed().setDescription(`${client.user} has joined **${guild.name}** ${success}`));
@@ -127,8 +127,8 @@ module.exports = async (client, guild) => {
 
   // Self-assign color
   try {
-    const SukyColor = guild.roles.cache.find(r => r.name === '#Seagrass');
-    if (SukyColor) await guild.me.roles.add(SukyColor);
+    const HeleneColor = guild.roles.cache.find(r => r.name === '#Seagrass');
+    if (HeleneColor) await guild.me.roles.adHelenekyColor);
   } catch (err) {
     client.logger.error(err.message);
   }

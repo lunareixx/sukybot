@@ -10,7 +10,7 @@ module.exports = class SetCrownMessageCommand extends Command {
       aliases: ['setcrownmsg', 'setcm', 'scm'],
       usage: 'setcrownmessage <message>',
       description: oneLine`
-        Sets the message Suky will say during the crown role rotation.
+        Sets the message Helene will say during the crown role rotation.
         You may use \`?member\` to substitute for a user mention ,
         \`?username\` to substitute for someone's username,
         \`?tag\` to substitute for someone's full Discord tag (username + discriminator),

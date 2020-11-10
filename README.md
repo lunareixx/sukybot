@@ -1,12 +1,12 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/lunareixx/sukybot"><img src="./data/images/Suky_Title.png"></a>
+  <a href="https://github.com/lunareixx/lunarixhub-bot"><img src="./data/images/Helene_Title.png"></a>
   <br>
-  Suky
+  Helene
   <br>
 </h1>
 
-<h3 align=center>Bot Multitalenta !</h3>
+<h3 align=center>Executive Multitalenta !</h3>
 
 
 <div align=center>
@@ -19,7 +19,7 @@
     <img src="https://img.shields.io/badge/discord.js-v12.3.1-blue.svg?logo=npm" alt="shield.png">
   </a>
 
-  <a href="https://github.com/lunareixx/sukybot/blob/develop/LICENSE">
+  <a href="https://github.com/lunareixx/lunarixhub-bot/blob/develop/LICENSE">
     <img src="https://img.shields.io/badge/license-GNU%20GPL%20v3-green" alt="shield.png">
   </a>
 
@@ -42,7 +42,7 @@
 ## About
 
 
-Kenalin Suky, Bot Multitalenta ! Dia bisa ngelakuin banyak hal!
+Kenalin Helene, Executive Multitalenta ! Dia bisa ngelakuin banyak hal!
 
 
 ## Kemampuannya
@@ -53,7 +53,7 @@ Kenalin Suky, Bot Multitalenta ! Dia bisa ngelakuin banyak hal!
 
 Clone repo ini dulu
 ```
-git clone https://github.com/lunareixx/sukybot.git
+git clone https://github.com/lunareixx/lunarixhub-bot.git
 ```
 Setelah cloning, jalankan
 ```
@@ -90,7 +90,7 @@ Setelah selesai, luncurkan `node app.js` atau `nodemon app.js`. Di Linux, bisa g
 
 ### Emojis
 
-Ganti Emoji kamu dengan ID sesuai emojinya yang kamu punya di `emojis.json` agar emoji nya muncul. Atau bisa dimodifikasi sesukamu :v
+Ganti Emoji kamu dengan ID sesuai emojinya yang kamu punya di `emojis.json` agar emoji nya muncul. Atau bisa dimodifikasi sesukamu
 
 ## Lisensi
 
@@ -99,4 +99,4 @@ Released under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html) li
 ## Kredit
 
 Special thanks to :
-* **Sebastian Battle** - *Base Code Repository* - [Github](https://github.com/sabattle/calypsobot)
+* **Sebastian Battle** - *Base Code* - [Github](https://github.com/sabattle/calypsobot)

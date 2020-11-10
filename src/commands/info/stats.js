@@ -10,7 +10,7 @@ module.exports = class StatsCommand extends Command {
       name: 'stats',
       aliases: ['statistics', 'metrics'],
       usage: 'stats',
-      description: 'Fetches Suky\'s statistics.',
+      description: 'Fetches Helene\'s statistics.',
       type: client.types.INFO
     });
   }
@@ -35,7 +35,7 @@ module.exports = class StatsCommand extends Command {
       RAM Usage :: ${usedMemMb} MB 
     `;
     const embed = new MessageEmbed()
-      .setTitle('Suky\'s Statistics')
+      .setTitle('Helene\'s Statistics')
       .addField('Commands', `\`${message.client.commands.size}\` commands`, true)
       .addField('Aliases', `\`${message.client.aliases.size}\` aliases`, true)
       .addField('Command Types', `\`${Object.keys(message.client.types).length}\` command types`, true)
@@ -44,7 +44,7 @@ module.exports = class StatsCommand extends Command {
       .addField(
         'Links', 
         '**[Support Server](https://discord.gg/jVgKDC4) | ' +
-        '[Repository](https://github.com/lunareixx/sukybot)**'
+        '[Repository](https://github.com/lunareixx/lunarixhub-bot)**'
       )
       .setFooter(message.member.displayName,  message.author.displayAvatarURL({ dynamic: true }))
       .setTimestamp()

@@ -1,5 +1,5 @@
 {
-  "name": "Suky",
+  "name": "Helene",
   "version": "1.0.0",
   "description": "A fully customizable bot built with discord.js",
   "main": "app.js",
@@ -31,12 +31,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://lunareixx@github.com/lunareixx/sukybot.git"
+    "url": "git+https://lunareixx@github.com/lunareixx/lunarixhub-bot.git"
   },
   "author": "Lunareix",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/lunareixx/sukybot/issues"
+    "url": "https://github.com/lunareixx/lunarixhub-bot/issues"
   },
-  "homepage": "https://github.com/lunareixx/sukybot#readme"
+  "homepage": "https://github.com/lunareixx/lunarixhub-bot#readme"
 }

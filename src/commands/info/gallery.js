@@ -2,11 +2,11 @@ const Command = require('../Command.js');
 const ReactionMenu = require('../ReactionMenu.js');
 const { MessageEmbed } = require('discord.js');
 const art = [
-  'https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky_Full_Signature.png',
-  'https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky.png',
-  'https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky_WIP.png',
-  'https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky_WIP_2.png',
-  'https://raw.githubusercontent.com/lunareixx/sukybot/master/data/images/Suky_WIP_3.png'
+  'https://raw.githubusercontent.com/lunareixx/lunarixhub-bot/master/data/images/Helene_Full_Signature.png',
+  'https://raw.githubusercontent.com/lunareixx/lunarixhub-bot/master/data/images/Helene.png',
+  'https://raw.githubusercontent.com/lunareixx/lunarixhub-bot/master/data/images/Helene_WIP.png',
+  'https://raw.githubusercontent.com/lunareixx/lunarixhub-bot/master/data/images/Helene_WIP_2.png',
+  'https://raw.githubusercontent.com/lunareixx/lunarixhub-bot/master/data/images/Helene_WIP_3.png'
 ];
 
 module.exports = class GalleryCommand extends Command {
@@ -15,7 +15,7 @@ module.exports = class GalleryCommand extends Command {
       name: 'gallery',
       aliases: ['art'],
       usage: 'gallery',
-      description: 'Displays a gallery of Suky\'s art.',
+      description: 'Displays a gallery of Helene\'s art.',
       type: client.types.INFO,
       clientPermissions: ['SEND_MESSAGES', 'EMBED_LINKS', 'ADD_REACTIONS']
     });
@@ -24,7 +24,7 @@ module.exports = class GalleryCommand extends Command {
     let n = 0;
     const embed = new MessageEmbed()
       .setTitle('Art Gallery')
-      .setDescription('All of Suky Profile & Art.')
+      .setDescription('All of Helene Profile & Art.')
       .setImage(art[n])
       .setFooter(
         'Expires after three minutes.\n' + message.member.displayName,  
