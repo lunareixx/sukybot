@@ -92,11 +92,6 @@ Setelah selesai, luncurkan `node app.js` atau `nodemon app.js`. Di Linux, bisa g
 
 Ganti Emoji kamu dengan ID sesuai emojinya yang kamu punya di `emojis.json` agar emoji nya muncul. Atau bisa dimodifikasi sesukamu :v
 
-## To Do
-
-* Add "Indonesian" Language
-* Eksperimen command music wkwkwkwk
-
 ## Lisensi
 
 Released under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
