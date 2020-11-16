@@ -1,0 +1,11 @@
+{
+  "token": "token_bot_kamu_disini",
+  "ownerId": "ID_kamu_disini",
+  "bugReportChannelId": "bug_report_channel_ID_disini",
+  "feedbackChannelId": "feedback_channel_ID_disini",
+  "serverLogId": "server_log_ID_disini",
+  "apiKeys": {
+    "catApi": "API_keynya_disini",
+    "googleApi": "API_keynya_disini"
+  }
+}
