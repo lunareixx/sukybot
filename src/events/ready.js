@@ -1,8 +1,8 @@
 module.exports = async (client) => {
   
   const activities = [
-    { name: 's!help︱Tea is ready. Time to relax.', type: 'PLAYING' }, 
-    { name: 's!help︱Love u all ❤️', type: 'WATCHING' }
+    { name: 'lh!help︱Tea is ready. Time to relax.', type: 'PLAYING' }, 
+    { name: 'lh!help︱Love u all ❤️', type: 'WATCHING' }
   ];
 
   // Update presence
@@ -12,7 +12,7 @@ module.exports = async (client) => {
 
   // Update activity every 30 seconds
   setInterval(() => {
-    activities[2] = { name: `${client.guilds.cache.size} servers`, type: 'WATCHING' }; // Update server count
+    activities[2] = { name: `Lunarix Hub Server`, type: 'WATCHING' }; // Update server count
     activities[3] = { name: `${client.users.cache.size} users`, type: 'WATCHING' }; // Update user count
     if (activity > 3) activity = 0;
     client.user.setActivity(activities[activity]);

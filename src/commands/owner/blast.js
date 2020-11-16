@@ -25,10 +25,7 @@ module.exports = class BlastCommand extends Command {
         systemChannel.permissionsFor(guild.me).has(['SEND_MESSAGES', 'EMBED_LINKS'])
       ) {
         const embed = new MessageEmbed()
-          .setTitle('Helene System Message')
-          .setThumbnail('https://raw.githubusercontent.com/lunareixx/lunarixhub-bot/master/data/images/Helene.png')
           .setDescription(msg)
-          .setTimestamp()
           .setColor(message.guild.me.displayHexColor);
         systemChannel.send(embed);
       } else guilds.push(guild.name);
